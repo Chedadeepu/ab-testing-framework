@@ -1,8 +1,6 @@
 # A/B Testing & Statistical Hypothesis Testing
 
-**Author:** Saiteja Chedadeepu | [GitHub](https://github.com/Chedadeepu) | [LinkedIn](https://linkedin.com/in/saitejachedadeepu)
-
-> **No dataset download required.** This project generates its own synthetic data — install dependencies and run immediately.
+**Author:** Saiteja Chedadeepu | [GitHub](https://github.com/Chedadeepu) 
 
 End-to-end A/B testing framework covering experiment design, sample size calculation, statistical significance testing, effect size, confidence intervals, Bonferroni correction for multiple metrics, and a peeking bias demonstration.
 
@@ -57,10 +55,9 @@ End-to-end A/B testing framework covering experiment design, sample size calcula
 
 ```
 ab-testing-framework/
-├── ab_test_analysis.py          ← Main script (run this)
+├── ab_test_analysis.py          ← Main script 
 ├── requirements.txt
 ├── README.md
-├── .gitignore
 └── outputs/
     ├── charts/
     │   ├── 01_sample_size_curve.png   ← Effect vs sample size trade-off
@@ -88,7 +85,7 @@ python ab_test_analysis.py
 
 # 4. View outputs
 # → outputs/charts/*.png        (4 charts)
-# → outputs/ab_report.txt       (full written report)
+# → outputs/final_report.txt       
 # → outputs/ab_experiment_data.csv
 ```
 
