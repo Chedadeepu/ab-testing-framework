@@ -474,5 +474,5 @@ print(f"""
   outputs/charts/03_peeking_bias.png
   outputs/charts/04_decision_report.png
   outputs/ab_experiment_data.csv
-  outputs/ab_report.txt
+  outputs/final_report.txt
 """)
